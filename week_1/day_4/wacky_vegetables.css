@@ -1,0 +1,35 @@
+
+
+#sidebar { background-color: lightgrey;
+ border-radius: 8px;
+ height: 120px; }
+
+
+
+blockquote {
+/*border: 1px solid #b3b3b3;*/
+border-left: 10px solid #b3b3b3;
+border-radius: 0px;
+/*background: #fafafa;*/
+font-size: 17px;
+margin: 10px;
+padding: 10px 20px;
+}
+ 
+/*blockquote p {
+margin: 0;
+line-height: 30px;
+padding-bottom: 20px;
+}*/
+ 
+/*blockquote .small {
+display: block;
+font-size: 80%;
+color: pink;
+text-align: right;
+} */
+
+/*p {
+    font-size: 12px;
+}*/
+
