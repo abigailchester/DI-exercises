@@ -1,9 +1,18 @@
-
+body {
+    padding-top: 20px;
+}
 
 #sidebar { background-color: lightgrey;
- border-radius: 8px;
- height: 120px; }
+    border-size: 10px;
+    border-color: grey;
+    border-radius: 10px;
+    padding: 25px;
+    padding-left: 35px;
+    padding-top: 40px;
+    height: 280px; 
+}
 
+a {font-size: 13px}
 
 
 blockquote {
@@ -15,21 +24,17 @@ font-size: 17px;
 margin: 10px;
 padding: 10px 20px;
 }
- 
-/*blockquote p {
-margin: 0;
-line-height: 30px;
-padding-bottom: 20px;
-}*/
- 
-/*blockquote .small {
-display: block;
-font-size: 80%;
-color: pink;
-text-align: right;
-} */
 
-/*p {
+.table-bordered {
+
+}
+
+.image-fluid {
+    max-width: 50%
+}
+
+
+p {
     font-size: 12px;
-}*/
+}
 
