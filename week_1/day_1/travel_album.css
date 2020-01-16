@@ -1,0 +1,33 @@
+body {
+	background-image: url(ist_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-display: flex;
+
+}
+
+h1, h2, p {
+	font-family: fantasy;
+	color: white;
+	text-align: center;
+
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  font-family: fantasy;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+}
+
+
+.bottom_links {
+	color:white;
+}
