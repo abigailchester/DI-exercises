@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="hackathon.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav justify-content-center">
+				<li class="nav-item active">
+					<a class="nav-link" href="#header">HOME<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#songs">SING-ALONG!<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#contact">CONTACT<span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- <div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p class="lead">Get ready to listen to music!</p>
+  <p>We have a variety of songs to choose from</p>
+ 
+</div> -->
+
+	<div class="jumbotron">
+		<h2 class="display-4">Welcome to Sing-Along!</h2>
+		<p class="lead"><h2 class="display-5">Fun Songs for the Kids and Family</h2></p>
+<!-- 		<a class="btn btn-warning btn-lg" href="#" role="button">Click Here To See Some Cool Effects</a> -->
+	</div>
+
+
+
+<section id="songs" class="shrinkbox">
+
+<div class="row" id="row1">
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="pinkfong-baby-shark-5-2019-billboard-1548.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Baby Shark</h5>
+		    <p class="card-text">
+		    	<audio class="myAudio" controls>
+				<source src="babyshark.mp3" type="audio/ogg">
+				</audio>
+			</p>
+		    <div class="lyricbox">
+				<dialog class="lyrictext" id="dialog2"><p>Put lyrics here</p>
+				<button class="closebutton" id="hide2">Close</button>
+				</dialog>
+				<button class="showbutton" id="show2">Show Lyrics</button> 
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="Twinkle_Twinkle_Little_Star.gif" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Twinkle Twinkle Little Star</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+							  	<source src="twinkle.mp3" type="audio/ogg">
+							  	</audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button2">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="mary_had_a_little_lamb_63102.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Mary Had A Little Lamb</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+								<source src="maryhadalittlelamb.mp3" type="audio/ogg">
+  								</audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button3">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="row" id="row2">
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="macdonald-1200x731.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Old MacDonald Had A Farm</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+  								<source src="oldmacdonald.mp3" type="audio/ogg"></audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button4">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="unnamed.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">The Itsy Bitsy Spider</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+  					<source src="itsybitsyspider.mp3" type="audio/ogg"></audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button5">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="maxresdefault.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">The ABC's</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+								<source src="abc's.mp3" type="audio/ogg"></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button6">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="row" id="row3">
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="maxresdefault-1.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Happy And You Know It</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+  							<source src="happyandyouknowit.mp3" type="audio/ogg"></audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button7">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="wheels.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Wheels On The Bus</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+									<source src="wheelsonthebus.mp3" type="audio/ogg"></audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button8">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-4">
+		<div class="card" style="width: 25rem;">
+		  <img src="images.jpg" class="card-img-top" alt="..." style="height:250px">
+		  <div class="card-body">
+		    <h5 class="card-title">Five Little Ducks</h5>
+		    <p class="card-text"><audio class="myAudio" controls>
+  					<source src="fivelittleducks.mp3" type="audio/ogg"></audio></p>
+		    <!-- <a href="#" class="btn btn-primary" id="button9">Go somewhere</a> -->
+		    <div class="lyricbox">
+			    <dialog class="lyrictext"><p>Put lyrics here</p>
+				<button class="closebutton">Close</button>
+				</dialog>
+				<button class="showbutton">Show Lyrics</button> 
+		    </div>
+		  </div>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<section id="contact">
+	<div class="row">
+		<div id="getintouch" class="col-sm-6" >
+			<h2>SAY HELLO<h2>
+			<i class="fa fa-github" style="font-size:35px;color:orange"></i>
+			<i class="fa fa-linkedin-square" style="font-size:35px;color:orange"></i>
+			<i class="fa fa-facebook-official" style="font-size:35px;color:orange"></i>
+		</div>
+		<form class="col-sm-6">
+			<div class="form-group">
+				<label for="usr"></label>
+				<input type="text" class="form-control" id="usr" placeholder="Your Name">
+				</div>
+				<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+				<div class="form-group">
+				<label for="comment"></label>
+				<textarea class="form-control" rows="4" id="comment"placeholder="Send Us Your Song Requests!"></textarea>
+				</div>
+				<button type="submit" class="btn btn-warning">Send</button>
+		</form>
+	</div>
+</section>
+
+<script type="text/javascript" src=hackathon.js></script>
+
+</body>
+</html>
