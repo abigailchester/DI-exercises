@@ -1,12 +1,4 @@
-
-// for (button of buttons){
-// 	button.addEventListener("click", function(e){
-// 		alert("lyrics")
-// 	})
-// }
-
-
-function showtext() {  
+function showtextShark() {  
     var dialog2 = document.getElementById('dialog2');  
     var babysharklyric = document.createElement("p")
 	babysharklyric.setAttribute("class", "lyricscroll")
@@ -21,7 +13,7 @@ function showtext() {
         dialog2.removeChild(babysharklyric)
     };  
 }
-showtext(); 
+showtextShark(); 
 
 
 function showtextTwinkle() {  
@@ -167,23 +159,16 @@ var showbutton2 = document.getElementById("show2")
 
 
 showbutton2.addEventListener("mouseenter", function(e){
-	showbutton2.style.background = "purple";
+	showbutton2.style.color = "white";
 })
 showbutton2.addEventListener("mouseleave", function(e){
-	showbutton2.style.background = "orange";
+	showbutton2.style.color = "black";
 })
 
 var showbuttons = document.getElementsByClassName("showbutton")
 
 for (i = 0; i < showbuttons.length; i++) {
 	showbuttons[i].style.background = "orange"
-	function turnpink() {
-		showbuttons[i].addEventListener("mouseenter", function(e){
-			showbuttons[i].style.background = "pink";
-		})
-		// showbuttons[i].style.background = "pink";
-	}
-	// showbuttons[i].addEventListener("mouseenter", turnpink())
 }
 
 
@@ -232,3 +217,77 @@ function normalImg(x) {
    x.style.width = "200px";
    x.style.zIndex = "1";
 }
+
+var body = document.getElementsByTagName("body")[0]
+
+var cardImage = document.getElementsByClassName("card-img-top")[0]
+cardImage.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "blue"
+})
+cardImage.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage2 = document.getElementsByClassName("card-img-top")[1]
+cardImage2.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "purple"
+})
+cardImage2.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage3 = document.getElementsByClassName("card-img-top")[2]
+cardImage3.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "grey"
+})
+cardImage3.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage4 = document.getElementsByClassName("card-img-top")[3]
+cardImage4.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "green"
+})
+cardImage4.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage4 = document.getElementsByClassName("card-img-top")[4]
+cardImage4.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "orange"
+})
+cardImage4.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage4 = document.getElementsByClassName("card-img-top")[5]
+cardImage4.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "black"
+})
+cardImage4.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage5 = document.getElementsByClassName("card-img-top")[6]
+cardImage5.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "pink"
+})
+cardImage5.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage6 = document.getElementsByClassName("card-img-top")[7]
+cardImage6.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "gold"
+})
+cardImage6.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
+
+var cardImage7 = document.getElementsByClassName("card-img-top")[8]
+cardImage7.addEventListener("mouseenter", function(e){
+	body.style.backgroundColor = "red"
+})
+cardImage7.addEventListener("mouseleave", function(e){
+	body.style.backgroundColor = "lightblue"
+})
