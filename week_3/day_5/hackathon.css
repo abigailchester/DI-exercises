@@ -14,19 +14,31 @@ body {
 }
 
 
-.jumbotron {
-	background-image: url("final-animation.gif");
-	background-size: contain;
-	background-attachment: fixed;
-	margin-bottom: 40px; 
-	text-align: center;
-	padding-top: 50px;
-    padding-bottom: 250px;
 
+/*.jumbotron {
+	background-image: url("final-animation.gif");
+	background-size: cover;
+	height: 100%;
+	margin-bottom: 0px;
+	text-align: center;
+    padding-bottom: 250px;
+	margin-top: -130px;
+
+}*/
+
+.jumbotron {
+	background-image: url(final-animation.gif);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 200px;
 }
 
+
+
 .shrinkbox {
-	margin-left: 60px;
+	margin-left: 75px;
 	margin-right: 30px;
 
 }
@@ -36,6 +48,7 @@ body {
 	color: orange;
 	text-align: center;
 	text-shadow: 2px 2px lightgrey;
+/*	margin-top: 130px;*/
 }
 .display-5 {
 	color: orange;
@@ -113,7 +126,8 @@ h2 {
 }
 
 .instruments{
-	margin-top: 75px;
+	margin-top: 20px;
+	margin-left: 150px;
 }
 
 

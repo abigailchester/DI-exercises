@@ -219,6 +219,7 @@ document.getElementById("clarinet").addEventListener("click", function(){
 //     scrolldelay = setTimeout(pageScroll,10);
 // }
 
+// <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="violin.gif" id="violin" width="200px" height="200px">
 
 function bigImg(x) {
    x.style.height = "250px";
