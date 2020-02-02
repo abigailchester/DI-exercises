@@ -97,7 +97,6 @@ function showtextABC() {
 }
 showtextABC(); 
 
-
 function showtextHappy() {
     var dialog8 = document.getElementById('dialog8');
     var happyLyric = document.createElement("p")
@@ -113,7 +112,6 @@ function showtextHappy() {
     };
 }
 showtextHappy();
-
 
 function showtextWheels() {
     var dialog9 = document.getElementById('dialog9');
@@ -147,16 +145,8 @@ function showtextDucks() {
 }
 showtextDucks();
 
-// for (i = 0; i < cards.length; i++) {
-// 	var card = document.getElementsByClassName("card")[i]
-// 	//then get element by child nodes, do each thing to button etc
-// }
 
-// for (i = 0; i < cards.length; i++) {
-// 	var 
-// }
 var showbutton2 = document.getElementById("show2")
-
 
 showbutton2.addEventListener("mouseenter", function(e){
 	showbutton2.style.color = "white";
@@ -170,10 +160,6 @@ var showbuttons = document.getElementsByClassName("showbutton")
 for (i = 0; i < showbuttons.length; i++) {
 	showbuttons[i].style.background = "orange"
 }
-
-
-
-
 
 document.getElementById("violin").addEventListener("click", function(){
     document.getElementById("audio1").play();
@@ -199,24 +185,7 @@ document.getElementById("drums").addEventListener("click", function(){
 document.getElementById("clarinet").addEventListener("click", function(){
     document.getElementById("audio8").play();
 });
-// function pageScroll() {
-//     window.scrollBy(0,1);
-//     scrolldelay = setTimeout(pageScroll,10);
-// }
 
-// <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="violin.gif" id="violin" width="200px" height="200px">
-
-function bigImg(x) {
-   x.style.height = "250px";
-   x.style.width = "250px";
-   x.style.zIndex = "1000";
-}
-
-function normalImg(x) {
-   x.style.height = "200px";
-   x.style.width = "200px";
-   x.style.zIndex = "1";
-}
 
 var body = document.getElementsByTagName("body")[0]
 
