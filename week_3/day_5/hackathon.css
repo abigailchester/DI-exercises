@@ -10,7 +10,22 @@ body {
 
 ​
 .navbar-nav {
+	display: flex;
 	margin: auto;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+	align-self: center;
+}
+
+.topnav {
+	background-color: orange;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+}
+a {
+	color: white;
 }
 
 
@@ -57,10 +72,10 @@ body {
 	text-shadow: 2px 2px lightgrey;
 }
 ​
-#songs {
+/*#songs {
 	height: 400px;
 	margin: auto;
-}
+}*/
 ​
 h2 {
 	color: orange;
@@ -101,15 +116,16 @@ h2 {
  .card {
  	text-align: center;
  	width: 25rem;
+ 	margin: 20px;
  }
 ​
-#row1, #row2, #row3 {
+#row1 {
 	margin-top: 30px;
 }
 
 .lyrictext {
 	background-color:#F4FFEF;
-	border:1px dotted black;
+	border:2px dotted blue;
 	z-index: 1000;
 }
 
@@ -120,10 +136,10 @@ h2 {
 	overflow: scroll;
 }
 
-
-#hello{
-	margin-left: 50px;
+.closebutton {
+	background-color: orange;
 }
+
 
 .instruments{
 	margin-top: 20px;
@@ -139,14 +155,6 @@ h2 {
 	text-align: center;
 }
 
-.card-title{
-	text-align: center;
-}
-
-
-.practicerow {
-	height: 150px;
-}
 
 
 .card-img-top:hover {
