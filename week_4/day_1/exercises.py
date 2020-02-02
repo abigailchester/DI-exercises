@@ -33,3 +33,21 @@ print(first_name + " " + last_name)
 computer_brand = "Mac"
 
 print("I have a " + computer_brand + " computer.")
+
+
+# Gold Exercises
+# Exercise 3
+
+print(("Hello world \n"*4)+("I love python \n")*4)
+
+# Exercise 4
+
+X = input()
+
+result = X + (X*X) + (X*X*X) + (X*X*X*X)
+
+print(result)
+
+
+
+
