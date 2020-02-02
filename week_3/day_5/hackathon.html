@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Sing-A-Long</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="hackathon.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
 					<a class="nav-link" href="#header">HOME<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#songs">SING-ALONG!<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#songs">SING-A-LONG!<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
 					<a class="nav-link" href="#contact">CONTACT<span class="sr-only">(current)</span></a>
@@ -28,7 +28,7 @@
 	</nav>
 
 	<div class="jumbotron"> 
-		<h2 class="display-4">Welcome to Sing-Along!</h2>
+		<h2 class="display-4">Welcome to Sing-A-Long!</h2><br>
 		<p class="lead"><h2 class="display-5">Fun Songs for the Kids and Family</h2></p>
 	</div>
 
@@ -43,7 +43,7 @@
 		  <div class="card-body">
 		    <h5 class="card-title">Baby Shark</h5>
 		    <p class="card-text">
-		    	<audio class="myAudio" controls>
+		    	<audio class="myAudio" controls onplay="pauseAllExceptNumber(0)">
 				<source src="babyshark.mp3" type="audio/ogg">
 				</audio>
 			</p>
@@ -61,7 +61,7 @@
 		  <img src="Twinkle_Twinkle_Little_Star.gif" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Twinkle Twinkle Little Star</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(1)">
 							  	<source src="twinkle.mp3" type="audio/ogg">
 							  	</audio></p>
 
@@ -79,7 +79,7 @@
 		  <img src="mary_had_a_little_lamb_63102.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Mary Had A Little Lamb</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(2)">
 								<source src="maryhadalittlelamb.mp3" type="audio/ogg">
   								</audio></p>
 		    <div class="lyricbox">
@@ -96,7 +96,7 @@
 		  <img src="macdonald-1200x731.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Old MacDonald Had A Farm</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(3)">
   								<source src="oldmacdonald.mp3" type="audio/ogg"></audio></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog6">
@@ -112,7 +112,7 @@
 		  <img src="unnamed.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">The Itsy Bitsy Spider</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(4)">
   				<source src="itsybitsyspider.mp3" type="audio/ogg"></audio></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog7">
@@ -128,7 +128,7 @@
 		  <img src="maxresdefault.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">The ABC's</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(5)">
 								<source src="abc's.mp3" type="audio/ogg"></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog3">
@@ -144,7 +144,7 @@
 		  <img src="maxresdefault-1.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Happy And You Know It</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(6)">
   							<source src="happyandyouknowit.mp3" type="audio/ogg"></audio></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog8">
@@ -160,7 +160,7 @@
 		  <img src="wheels.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Wheels On The Bus</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(7)">
 									<source src="wheelsonthebus.mp3" type="audio/ogg"></audio></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog9">
@@ -176,7 +176,7 @@
 		  <img src="images.jpg" class="card-img-top" alt="..." style="height:250px">
 		  <div class="card-body">
 		    <h5 class="card-title">Five Little Ducks</h5>
-		    <p class="card-text"><audio class="myAudio" controls>
+		    <p class="card-text"><audio class="myAudio" controls onplay="pauseAllExceptNumber(8)">
   					<source src="fivelittleducks.mp3" type="audio/ogg"></audio></p>
 		    <div class="lyricbox">
 			    <dialog class="lyrictext" id="dialog0">
@@ -195,37 +195,37 @@
 
 <section class="instruments">
 	<div class="row" id="music1">
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img src="violin.gif" id="violin" width="200px" height="200px">
 			<audio id="audio1" src="violinsound.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="piano" src="piano2.gif" width="170px" height="170px">
 			<audio id="audio2" src="pianosound.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="guitar" src="guitar.gif" width="200px" height="200px">
 			<audio id="audio3" src="electricguitar.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="saxaphone" src="saxaphone.gif" width="200px" height="200px">
 			<audio id="audio4" src="saxaphonesound.mp3"></audio>
 		</div>
 	</div>
 	<div class="row" id="music2">
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="cello" src="cello.gif" width="200px" height="200px">
 			<audio id="audio5" src="cellosound.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="trumpet" src="trumpet.gif" width="200px" height="200px">
 			<audio id="audio6" src="trumpetsound.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="drums" src="drums.gif" width="280px" height="280px">
 			<audio id="audio7" src="drumssound.mp3"></audio>
 		</div>
-		<div class="col-3">
+		<div class="col-sm-6 col-md-3">
 			<img id="clarinet" src="clarinet.gif" width="200px" height="200px">
 			<audio id="audio8" src="clarinetsound.mp3"></audio>
 		</div>
@@ -236,10 +236,11 @@
 <section id="contact" class="shrinkbox">
 <div class="row">
 <div class="col-sm-6"><br><br><br><br>
-	<h2><strong>SAY HELLO!</strong><h2>
-		<i class="fa fa-linkedin-square" style="font-size:40px;color:orange"></i>
+	<h2><strong>SAY HELLO!</strong></h2>
 		<i class="fa fa-facebook-official" style="font-size:40px;color:orange"></i>
-	</div>
+		<i class="fa fa-instagram" style="font-size:40px;color:orange"></i>
+		<i class="fa fa-linkedin-square" style="font-size:40px;color:orange"></i>
+</div>
 	<form class="col-sm-5">
 		<div class="form-group">
 			<label for="usr"></label>
@@ -252,7 +253,6 @@
 		</div>
 		<button type="submit" class="btn btn-warning">Send</button>
 	</form>
-</div>
 </section>
 
 <script type="text/javascript" src=hackathon.js></script>

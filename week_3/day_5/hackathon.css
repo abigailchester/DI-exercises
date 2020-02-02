@@ -8,46 +8,33 @@ body {
 	background-color: lightblue;
 }
 
-
 .jumbotron {
 	background-image: url(final-animation.gif);
-/*	background-attachment: fixed;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 350px;
+	padding-bottom: 300px;
 }
 
-/*.shrinkbox {*/
-/*	margin-left: 75px;
-	margin-right: 30px;*/
-/*	margin: auto;*/
-/*	display: flex;*/
-/*	justify-content: center;*/
-/*	align-content: center;*/
-/*}*/
+.shrinkbox {
+	margin-left: 30px;
+	margin-right: 30px;
+}
 
-
-.display-4 {
+.display-4, .display-5 {
 	color: orange;
 	text-align: center;
 	text-shadow: 2px 2px lightgrey;
-}
-.display-5 {
-	color: orange;
-	text-align: center;
 	font-weight: bold;
-	text-shadow: 2px 2px lightgrey;
+	margin-top: -30px;
 }
-​
-​
+
 h2 {
 	color: orange;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-​
 ​
 .card-title{
 	text-align: center;
@@ -58,8 +45,6 @@ h2 {
 	margin-top: 30px;
 }
 
-​
-​
 #text{
   position: absolute;
   top: 50%;
@@ -70,12 +55,9 @@ h2 {
   -ms-transform: translate(-50%,-50%);
 }
 ​
-
 .showbutton {
 	color: lightyellow;
 }
-
-
 
  .card {
  	text-align: center;
@@ -93,7 +75,6 @@ h2 {
 	z-index: 1000;
 }
 
-
 .lyricscroll {
 	width:400px;
 	max-height: 200px;
@@ -104,12 +85,10 @@ h2 {
 	background-color: orange;
 }
 
-
 .instruments{
 	margin-top: 20px;
 	margin-left: 150px;
 }
-
 
 #contact {
 	height: 320px;
@@ -118,8 +97,6 @@ h2 {
 	background-color: white;
 	text-align: center;
 }
-
-
 
 .card-img-top:hover {
   animation: shake 0.5s;
@@ -138,4 +115,3 @@ h2 {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
