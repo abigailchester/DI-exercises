@@ -49,5 +49,8 @@ result = X + (X*X) + (X*X*X) + (X*X*X*X)
 print(result)
 
 
+Y = input("type a number")
 
+result2 = Y + int(str(Y)+str(Y)) + int(str(Y)+str(Y)+str(Y)) + int(str(Y)+str(Y)+str(Y)+str(Y))
 
+print(result2)
