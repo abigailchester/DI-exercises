@@ -42,7 +42,7 @@ print(("Hello world \n"*4)+("I love python \n")*4)
 
 # Exercise 4
 
-X = input()
+X = input("type a number")
 
 result = X + (X*X) + (X*X*X) + (X*X*X*X)
 
