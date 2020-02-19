@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+{{ product['name'] }}
+
+<div class="image">
+<img style="height:350px" src="{{ url_for('static', filename='images/' + product['image']) }}">
+</div>
+{{ product['price'] }}
+Quantity available: {{ product['stock'] }}
+
+    <a href="/products">back to products</a>
+
+{% endblock %}

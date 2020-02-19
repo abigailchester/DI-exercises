@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+<p>this text doesn't show up because instead we have the block content text from base html, UNTIL i add block content below</p>
+
+{% block content %}
+<h1>Add a Product for our Marketplace!</h1>
+
+
+<h1>Form Page</h1>
+
+   <form method=GET>
+    <fieldset>
+   <legend>ADD PRODUCT</legend>
+   <ul>
+    <li>Product Name: <input name='product-name'></li>
+    <li>Product Price:  <input name='price'></li>
+   </ul>
+   <input type='submit' value='Submit Form'>
+   </fieldset>
+   </form>
+
+{{ message }}
+
+
+<a href="/">Return Home</a>
+{% endblock %}

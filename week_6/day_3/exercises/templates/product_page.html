@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Party Supplies</h1>
+<div class="row">
+    {% for item in products %}
+        {% if item['category'] == "party" %}
+            <div class="col-lg-4 col-sm-6">
+            <div class="image"><img style="height:150px" src="{{ url_for('static', filename='images/' + item['image']) }}"></div>
+            <a href="/product_details/{{item['id']}}"><h1>{{ item['name'] }}</h1></a>
+            <div>{{ item['price'] }}</div>
+            <div>Quantity available: {{ item['stock'] }}</div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+<h1>Clothes</h1>
+<div class="row">
+    {% for item in products %}
+        {% if item['category'] == "clothes" %}
+
+            <div class="col-lg-6 col-sm-4">
+            <div class="image"><img style="height:150px" src="{{ url_for('static', filename='images/' + item['image']) }}"></div>
+            <a href="/product_details/{{item['id']}}"><h1>{{ item['name'] }}</h1></a>
+            <div>{{ item['price'] }}</div>
+            <div>Quantity available: {{ item['stock'] }}</div>
+        </div>
+
+        {% endif %}
+    {% endfor %}
+
+    <div class="row">
+    {% if added_products|length > 0 %}
+        {% for item in added_products %}
+            <h1>Coming Soon:</h1>
+            <p>item['name']</p>
+            <p>item['price']</p>
+        {% endfor %}
+    {% endif %}
+    </div>
+
+</div>
+
+
+
+
+<a href="/">Click here to go back to the home page</a>
+<br><br><br><br>
+{% endblock %}

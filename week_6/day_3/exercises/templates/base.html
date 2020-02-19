@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abby's Marketplace</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: rgb(34,193,195);background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);">
+  <a class="navbar-brand" href="/"><img src="https://img.icons8.com/nolan/64/unicorn.png"></a>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/products">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/add_product">Add Product</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/vendor_login">Vendor Login</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/vendor_create_account">Become a Vendor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+{% block content %}
+<p>this is needed in order for the product_page and home page links to work,
+    but then when I added the add_product page, this text shows up there,
+    UNTIL i add the block content section</p>
+{% endblock %}
+
+
+<div style="background: rgb(244,66,241); background: linear-gradient(90deg, rgba(244,66,241,1) 0%, rgba(175,52,217,1) 40%, rgba(0,212,255,1) 100%); position: fixed; bottom: 0; width: 100%; padding-top:15px">
+<p style="color:white;display:flex;justify-content:center">Thanks for visiting Abby's Marketplace</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+        {
+            "id": 0,
+            "category": "party",
+            "name": "Unicorn Raft",
+            "price": "$ 50",
+            "stock": 100,
+            "image": "unicorn.jpg"
+        },
+        {
+            "id": 1,
+            "category": "party",
+            "name": "Plastic Cocktail Cups 50-pack",
+            "price": "$ 20",
+            "stock": 150,
+            "image": "cocktailcup.jpg"
+        },
+        {
+            "id": 2,
+            "category": "party",
+            "name": "Snack Pack",
+            "price": "$ 15",
+            "stock": 10,
+            "image": "snackpack.png"
+        },
+        {
+            "id": 3,
+            "category": "party",
+            "name": "Volleyball Net",
+            "price": "$ 70",
+            "stock": 15,
+            "image": "volleyball.jpg"
+        },
+        {
+            "id": 4,
+            "category": "clothes",
+            "name": "Dress",
+            "price": "$ 60",
+            "stock": 6,
+            "image": "dress.jpg"
+        },
+        {
+            "id": 5,
+            "category": "clothes",
+            "name": "Sandals",
+            "price": "$ 20",
+            "stock": 18,
+            "image": "sandals.png"
+        },
+        {
+            "id": 6,
+            "category": "party",
+            "name": "Taco Tray",
+            "price": "$ 45",
+            "stock": 10,
+            "image": "tacotray.jpg"
+        }
+]
