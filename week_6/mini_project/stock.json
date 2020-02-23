@@ -1,0 +1,32 @@
+[
+  {
+    "brand": "Nike",
+    "name": "Sneakers",
+    "price": 90,
+    "stock": 50
+  },
+  {
+    "brand": "Stuart Weitzman",
+    "name": "Over-the-knee Boots",
+    "price": 900,
+    "stock": 15
+  },
+  {
+    "brand": "Adidas",
+    "name": "Running Shoes",
+    "price": 70,
+    "stock": 70
+  },
+  {
+    "brand": "Converse",
+    "name": "High Tops",
+    "price": 50,
+    "stock": 100
+  },
+  {
+    "brand": "Vans",
+    "name": "Sneakers",
+    "price": 60,
+    "stock": 40
+  }
+]
